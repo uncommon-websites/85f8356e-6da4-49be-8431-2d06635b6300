@@ -1,0 +1,77 @@
+<script lang="ts">
+  // Footer section
+</script>
+
+<footer class="bg-black text-white py-20 border-t border-gray-900">
+  <div class="max-w-[1400px] mx-auto px-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">
+      
+      <!-- Logo -->
+      <div class="lg:col-span-1">
+        <a href="/" class="flex items-center gap-2 text-white mb-8">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 0C12 0 14 8 22 10C14 12 12 20 12 20C12 20 10 12 2 10C10 8 12 0 12 0Z" fill="white"/>
+          </svg>
+          <span class="text-xl font-normal tracking-tight">Sana</span>
+        </a>
+        
+        <div class="mb-12">
+          <a href="/" class="text-sm border-b border-white pb-0.5 hover:opacity-80 transition-opacity">Subscribe to our newsletter</a>
+        </div>
+        
+        <p class="text-xs text-gray-500">© Sana Labs AB 2025</p>
+      </div>
+
+      <!-- Links -->
+      <div class="lg:col-span-4 grid grid-cols-2 md:grid-cols-3 gap-8">
+        
+        <!-- Sana Agents -->
+        <div class="flex flex-col gap-3">
+          <h4 class="text-xs font-bold text-gray-500 uppercase tracking-widest mb-2">Sana Agents</h4>
+          <a href="/" class="text-sm hover:text-gray-300 transition-colors">Overview</a>
+          <a href="/" class="text-sm hover:text-gray-300 transition-colors">AI agents</a>
+          <a href="/" class="text-sm hover:text-gray-300 transition-colors">Enterprise search</a>
+          <a href="/" class="text-sm hover:text-gray-300 transition-colors">iOS app</a>
+          <a href="/" class="text-sm hover:text-gray-300 transition-colors">Solutions</a>
+          <a href="/" class="text-sm hover:text-gray-300 transition-colors">Integrations</a>
+          <a href="/" class="text-sm hover:text-gray-300 transition-colors">Events</a>
+          <a href="/" class="text-sm hover:text-gray-300 transition-colors">Security</a>
+          <a href="/" class="text-sm hover:text-gray-300 transition-colors">Stories</a>
+          <a href="/" class="text-sm hover:text-gray-300 transition-colors">Pricing</a>
+          <a href="/" class="text-sm hover:text-gray-300 transition-colors">Help Center</a>
+        </div>
+
+        <!-- Sana Learn -->
+        <div class="flex flex-col gap-3">
+          <h4 class="text-xs font-bold text-gray-500 uppercase tracking-widest mb-2">Sana Learn</h4>
+          <a href="/" class="text-sm hover:text-gray-300 transition-colors">Overview</a>
+          <a href="/" class="text-sm hover:text-gray-300 transition-colors">Learning management</a>
+          <a href="/" class="text-sm hover:text-gray-300 transition-colors">Content creation</a>
+          <a href="/" class="text-sm hover:text-gray-300 transition-colors">AI tutor</a>
+          <a href="/" class="text-sm hover:text-gray-300 transition-colors">Solutions</a>
+          <a href="/" class="text-sm hover:text-gray-300 transition-colors">Partner stories</a>
+          <a href="/" class="text-sm hover:text-gray-300 transition-colors">Integrations</a>
+          <a href="/" class="text-sm hover:text-gray-300 transition-colors">Events</a>
+          <a href="/" class="text-sm hover:text-gray-300 transition-colors">Pricing</a>
+          <a href="/" class="text-sm hover:text-gray-300 transition-colors">Help Center</a>
+          <a href="/" class="text-sm hover:text-gray-300 transition-colors">Changelog</a>
+        </div>
+
+        <!-- Company -->
+        <div class="flex flex-col gap-3">
+          <h4 class="text-xs font-bold text-gray-500 uppercase tracking-widest mb-2">Company</h4>
+          <a href="/" class="text-sm hover:text-gray-300 transition-colors">Read Releases</a>
+          <a href="/" class="text-sm hover:text-gray-300 transition-colors">Swedish AI Reform</a>
+          <a href="/" class="text-sm hover:text-gray-300 transition-colors">Sana Loop Podcast</a>
+          <a href="/" class="text-sm hover:text-gray-300 transition-colors">Mission</a>
+          <a href="/" class="text-sm hover:text-gray-300 transition-colors">Careers</a>
+          <a href="/" class="text-sm hover:text-gray-300 transition-colors">Press</a>
+          <a href="/" class="text-sm hover:text-gray-300 transition-colors">Legal</a>
+          <a href="/" class="text-sm hover:text-gray-300 transition-colors">Cookie settings</a>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</footer>

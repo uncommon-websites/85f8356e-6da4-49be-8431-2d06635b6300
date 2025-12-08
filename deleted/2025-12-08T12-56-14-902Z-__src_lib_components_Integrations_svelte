@@ -1,0 +1,92 @@
+<script lang="ts">
+  // Integrations & Security section
+  const integrations = [
+    { name: "Google Drive", icon: "GD" },
+    { name: "Teams", icon: "T" },
+    { name: "Slack", icon: "S" },
+    { name: "Salesforce", icon: "SF" },
+    { name: "HubSpot", icon: "HS" },
+    { name: "ServiceNow", icon: "SN" },
+    { name: "SharePoint", icon: "SP" },
+    { name: "OneDrive", icon: "OD" },
+    { name: "Outlook", icon: "O" },
+    { name: "Workday", icon: "W" },
+    { name: "Figma", icon: "F" },
+    { name: "GitHub", icon: "GH" },
+    { name: "Zendesk", icon: "Z" },
+    { name: "Gmail", icon: "G" },
+    { name: "Confluence", icon: "C" },
+    { name: "Jira", icon: "J" }
+  ];
+
+  const security = [
+    { name: "Custom user roles", icon: "shield" },
+    { name: "User provisioning", icon: "users" },
+    { name: "Advanced permissions", icon: "lock" },
+    { name: "Flexible groups", icon: "users-group" },
+    { name: "SOC 2 Type 2", icon: "badge" },
+    { name: "GDPR compliant", icon: "badge" },
+    { name: "ISO 27001", icon: "badge" },
+    { name: "Encryption", icon: "lock" },
+    { name: "SAML single sign-on", icon: "key" },
+    { name: "Domain verification", icon: "check" },
+    { name: "Regional deploys", icon: "globe" },
+    { name: "Audit logging", icon: "file" }
+  ];
+</script>
+
+<section class="bg-black text-white py-32">
+  <div class="max-w-[1400px] mx-auto px-6">
+    
+    <div class="text-center mb-20">
+      <h2 class="text-5xl md:text-6xl font-normal mb-6">
+        Enterprise-grade<br />
+        <span class="font-serif italic font-light">integrations and security</span>
+      </h2>
+      <p class="text-gray-400 text-lg max-w-2xl mx-auto font-light">
+        Sana connects with 100+ applications and unifies your<br />
+        company's data securely.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <!-- Integrations -->
+      <div class="border border-white/10 rounded-3xl p-8 bg-[#050505]">
+        <div class="flex justify-center mb-8">
+           <span class="bg-[#0055FF] text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Connect your daily tools automatically</span>
+        </div>
+        
+        <div class="grid grid-cols-4 gap-4">
+          {#each integrations as item}
+            <div class="aspect-square bg-[#111] rounded-xl flex flex-col items-center justify-center gap-2 hover:bg-[#1A1A1A] transition-colors group cursor-pointer">
+              <div class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-xs font-bold group-hover:scale-110 transition-transform">
+                {item.icon}
+              </div>
+              <span class="text-[10px] text-gray-400 text-center">{item.name}</span>
+            </div>
+          {/each}
+        </div>
+      </div>
+
+      <!-- Security -->
+      <div class="border border-white/10 rounded-3xl p-8 bg-[#050505]">
+        <div class="flex justify-center mb-8">
+           <span class="bg-[#0055FF] text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Security you can stand by</span>
+        </div>
+        
+        <div class="grid grid-cols-4 gap-4">
+          {#each security as item}
+            <div class="aspect-square bg-[#111] rounded-xl flex flex-col items-center justify-center gap-2 hover:bg-[#1A1A1A] transition-colors group cursor-pointer">
+              <div class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-xs font-bold group-hover:scale-110 transition-transform">
+                <!-- Simple icon placeholder -->
+                <div class="w-4 h-4 border border-white/50 rounded-sm"></div>
+              </div>
+              <span class="text-[10px] text-gray-400 text-center leading-tight">{item.name}</span>
+            </div>
+          {/each}
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>

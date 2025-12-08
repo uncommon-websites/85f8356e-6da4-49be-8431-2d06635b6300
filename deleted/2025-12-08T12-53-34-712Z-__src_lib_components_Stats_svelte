@@ -1,0 +1,73 @@
+<script lang="ts">
+  // Stats section
+</script>
+
+<section class="bg-black text-white py-20 border-t border-gray-900">
+  <div class="max-w-[1400px] mx-auto px-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+      
+      <!-- Stat 1 -->
+      <div class="flex flex-col gap-6">
+        <p class="text-sm text-gray-400 h-10">
+          Global law firm automates compiling and analysis of legal docs
+        </p>
+        <div class="flex items-center gap-2">
+          <div class="w-2 h-2 rounded-full bg-green-500"></div>
+          <span class="text-6xl font-normal tracking-tight">62%</span>
+        </div>
+        <p class="text-xs font-semibold tracking-widest uppercase text-gray-500">TIME SAVINGS</p>
+      </div>
+
+      <!-- Stat 2 -->
+      <div class="flex flex-col gap-6">
+        <p class="text-sm text-gray-400 h-10">
+          European fintech scales up uses AI agent for new hire onboarding
+        </p>
+        <div class="flex items-center gap-2">
+          <div class="w-2 h-2 rounded-full bg-green-500"></div>
+          <span class="text-6xl font-normal tracking-tight">10h</span>
+        </div>
+        <p class="text-xs font-semibold tracking-widest uppercase text-gray-500">PER WEEK/EMPLOYEE SAVED</p>
+      </div>
+
+      <!-- Stat 3 -->
+      <div class="flex flex-col gap-6">
+        <p class="text-sm text-gray-400 h-10">
+          Leading Swedish mining manufacturer automates R&D analysis workflows
+        </p>
+        <div class="flex items-center gap-2">
+          <div class="w-2 h-2 rounded-full bg-green-500"></div>
+          <span class="text-6xl font-normal tracking-tight">50%</span>
+        </div>
+        <p class="text-xs font-semibold tracking-widest uppercase text-gray-500">TIME SAVINGS</p>
+      </div>
+
+      <!-- Stat 4 -->
+      <div class="flex flex-col gap-6">
+        <p class="text-sm text-gray-400 h-10">
+          Industrial market leader uses AI agent to augment customer support
+        </p>
+        <div class="flex items-center gap-2">
+          <div class="w-2 h-2 rounded-full bg-green-500"></div>
+          <span class="text-6xl font-normal tracking-tight">2x</span>
+        </div>
+        <p class="text-xs font-semibold tracking-widest uppercase text-gray-500">NUMBER OF ISSUES RESOLVED</p>
+      </div>
+
+    </div>
+
+    <!-- Navigation Arrows -->
+    <div class="flex justify-end gap-3 mt-12">
+      <button aria-label="Previous" class="w-10 h-10 rounded-full bg-gray-800 hover:bg-gray-700 flex items-center justify-center transition-colors text-gray-400 hover:text-white">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M15 18l-6-6 6-6" />
+        </svg>
+      </button>
+      <button aria-label="Next" class="w-10 h-10 rounded-full bg-gray-800 hover:bg-gray-700 flex items-center justify-center transition-colors text-gray-400 hover:text-white">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M9 18l6-6-6-6" />
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>

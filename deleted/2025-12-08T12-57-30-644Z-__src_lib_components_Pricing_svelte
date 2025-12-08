@@ -1,0 +1,143 @@
+<script lang="ts">
+  // Pricing section
+</script>
+
+<section class="bg-black text-white py-32">
+  <div class="max-w-[1400px] mx-auto px-6">
+    
+    <h2 class="text-5xl font-serif italic font-light mb-20">Pricing</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+      
+      <!-- Enterprise -->
+      <div>
+        <h3 class="text-xl font-bold mb-1">Enterprise</h3>
+        <p class="text-gray-400 text-sm mb-8">Custom</p>
+        
+        <a href="/" class="inline-block bg-white text-black px-6 py-2 rounded-full text-sm font-medium mb-12 hover:bg-gray-200 transition-colors">
+          Book an intro
+        </a>
+
+        <p class="text-[10px] text-gray-500 uppercase tracking-widest mb-6 font-bold">EVERYTHING IN TEAM +</p>
+        
+        <ul class="space-y-4 text-sm text-gray-300">
+          <li class="flex items-start gap-3">
+            <div class="w-4 h-4 rounded-full bg-[#B8F228] flex items-center justify-center flex-shrink-0 mt-0.5 text-black text-[10px]">✓</div>
+            <span>Unlimited members per workspace and documents per integration</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <div class="w-4 h-4 rounded-full bg-[#B8F228] flex items-center justify-center flex-shrink-0 mt-0.5 text-black text-[10px]">✓</div>
+            <span>Enterprise integrations</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <div class="w-4 h-4 rounded-full bg-[#B8F228] flex items-center justify-center flex-shrink-0 mt-0.5 text-black text-[10px]">✓</div>
+            <span>Domain verification, SAML-based SSO, and SCIM</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <div class="w-4 h-4 rounded-full bg-[#B8F228] flex items-center justify-center flex-shrink-0 mt-0.5 text-black text-[10px]">✓</div>
+            <span>Extended range of LLMs</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <div class="w-4 h-4 rounded-full bg-[#B8F228] flex items-center justify-center flex-shrink-0 mt-0.5 text-black text-[10px]">✓</div>
+            <span>Analytics dashboard to measure impact</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <div class="w-4 h-4 rounded-full bg-[#B8F228] flex items-center justify-center flex-shrink-0 mt-0.5 text-black text-[10px]">✓</div>
+            <span>Dedicated success team, priority support, and SLA</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <div class="w-4 h-4 rounded-full bg-[#B8F228] flex items-center justify-center flex-shrink-0 mt-0.5 text-black text-[10px]">✓</div>
+            <span>API access for building your own integrations</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Team -->
+      <div>
+        <h3 class="text-xl font-bold mb-1">Team</h3>
+        <p class="text-orange-500 text-sm mb-8">$30 / user per month</p>
+        
+        <a href="/" class="inline-block border border-gray-700 text-white px-6 py-2 rounded-full text-sm font-medium mb-12 hover:bg-gray-800 transition-colors">
+          Sign up
+        </a>
+
+        <p class="text-[10px] text-gray-500 uppercase tracking-widest mb-6 font-bold">EVERYTHING IN FREE +</p>
+        
+        <ul class="space-y-4 text-sm text-gray-300">
+          <li class="flex items-start gap-3">
+            <div class="w-4 h-4 rounded-full bg-orange-500 flex items-center justify-center flex-shrink-0 mt-0.5 text-black text-[10px]">✓</div>
+            <span>Unlimited queries and meeting recordings</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <div class="w-4 h-4 rounded-full bg-orange-500 flex items-center justify-center flex-shrink-0 mt-0.5 text-black text-[10px]">✓</div>
+            <span>Up to 50 members per workspace</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <div class="w-4 h-4 rounded-full bg-orange-500 flex items-center justify-center flex-shrink-0 mt-0.5 text-black text-[10px]">✓</div>
+            <span>Our most popular integrations incl. Asana, Gmail, Outlook email, Zendesk, and more.</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <div class="w-4 h-4 rounded-full bg-orange-500 flex items-center justify-center flex-shrink-0 mt-0.5 text-black text-[10px]">✓</div>
+            <span>OpenAI and Claude model selection</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <div class="w-4 h-4 rounded-full bg-orange-500 flex items-center justify-center flex-shrink-0 mt-0.5 text-black text-[10px]">✓</div>
+            <span>Enterprise data processing agreement</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <div class="w-4 h-4 rounded-full bg-orange-500 flex items-center justify-center flex-shrink-0 mt-0.5 text-black text-[10px]">✓</div>
+            <span>10,000 documents per integration</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <div class="w-4 h-4 rounded-full bg-orange-500 flex items-center justify-center flex-shrink-0 mt-0.5 text-black text-[10px]">✓</div>
+            <span>Priority in-email and chat support</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Free -->
+      <div>
+        <h3 class="text-xl font-bold mb-1">Free</h3>
+        <p class="text-pink-500 text-sm mb-8">$0</p>
+        
+        <a href="/" class="inline-block border border-gray-700 text-white px-6 py-2 rounded-full text-sm font-medium mb-12 hover:bg-gray-800 transition-colors">
+          Try it free
+        </a>
+
+        <p class="text-[10px] text-gray-500 uppercase tracking-widest mb-6 font-bold">IDEAL FOR INDIVIDUALS</p>
+        
+        <ul class="space-y-4 text-sm text-gray-300">
+          <li class="flex items-start gap-3">
+            <div class="w-4 h-4 rounded-full bg-pink-500 flex items-center justify-center flex-shrink-0 mt-0.5 text-black text-[10px]">✓</div>
+            <span>10 meetings per month — invite members for more</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <div class="w-4 h-4 rounded-full bg-pink-500 flex items-center justify-center flex-shrink-0 mt-0.5 text-black text-[10px]">✓</div>
+            <span>Up to 5 members per workspace</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <div class="w-4 h-4 rounded-full bg-pink-500 flex items-center justify-center flex-shrink-0 mt-0.5 text-black text-[10px]">✓</div>
+            <span>Unlimited assistants and prompt templates</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <div class="w-4 h-4 rounded-full bg-pink-500 flex items-center justify-center flex-shrink-0 mt-0.5 text-black text-[10px]">✓</div>
+            <span>Meeting integrations with Calendar, Drive, Meet, Teams, and Zoom</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <div class="w-4 h-4 rounded-full bg-pink-500 flex items-center justify-center flex-shrink-0 mt-0.5 text-black text-[10px]">✓</div>
+            <span>Data integrations with Confluence, Google Drive, OneDrive, Notion, and Sharepoint</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <div class="w-4 h-4 rounded-full bg-pink-500 flex items-center justify-center flex-shrink-0 mt-0.5 text-black text-[10px]">✓</div>
+            <span>1,000 documents per integration</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <div class="w-4 h-4 rounded-full bg-pink-500 flex items-center justify-center flex-shrink-0 mt-0.5 text-black text-[10px]">✓</div>
+            <span>Help center support</span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>

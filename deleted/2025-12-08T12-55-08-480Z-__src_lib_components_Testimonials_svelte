@@ -1,0 +1,51 @@
+<script lang="ts">
+  // Testimonials section
+  const testimonials = [
+    {
+      quote: "All of a sudden, a valuation memo that our CFO previously spent almost a week preparing was completed within three or four hours.",
+      role: "Chief Sustainability Officer",
+      company: "Leading renewable energy company"
+    },
+    {
+      quote: "Sana gives us control over the AI, allowing us to choose the material it accesses and tailor its parameters to our specific needs.",
+      role: "Executive Vice President",
+      company: "Global medical technology provider"
+    },
+    {
+      quote: "With Sana Agents, even colleagues who aren't tech-savvy can leverage AI in their everyday work. It's empowered everyone, not just the experts.",
+      role: "Head of Digitalization",
+      company: "Major real estate group"
+    },
+    {
+      quote: "With Sana, our sales prep is now 10x quicker. Instead of spending hours gathering data manually, our team can instantly access the research insights they need—freeing them to focus on designing more meaningful, strategic client conversations.",
+      role: "Product Operations Lead",
+      company: "International research and analytics firm"
+    },
+    {
+      quote: "We're leveraging our AI agents to find and compare product information, build sales arguments, support R&D, and much more. We see real operational efficiency, and Sana has already provided us with a quick payback.",
+      role: "CEO",
+      company: "Global industrial automation company"
+    },
+    {
+      quote: "With Sana, we're creating assistants to accelerate everything from deal analysis to portfolio reviews, transforming the way our investment teams operate.",
+      role: "Chief Digital Officer",
+      company: "Leading private equity firm"
+    }
+  ];
+</script>
+
+<section class="bg-black text-white py-20">
+  <div class="max-w-[1400px] mx-auto px-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {#each testimonials as t}
+        <div class="bg-[#111] rounded-2xl p-8 border border-white/5 flex flex-col justify-between h-full min-h-[300px]">
+          <p class="text-lg leading-relaxed text-gray-200">"{t.quote}"</p>
+          <div class="mt-8 pt-6 border-t border-gray-800">
+            <p class="font-medium text-sm text-white">{t.role}</p>
+            <p class="text-xs text-gray-500 mt-1">{t.company}</p>
+          </div>
+        </div>
+      {/each}
+    </div>
+  </div>
+</section>

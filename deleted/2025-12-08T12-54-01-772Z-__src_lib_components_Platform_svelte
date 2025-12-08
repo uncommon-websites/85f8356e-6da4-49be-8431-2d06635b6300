@@ -1,0 +1,173 @@
+<script lang="ts">
+  // Platform section
+</script>
+
+<section class="bg-[#111] text-white py-32">
+  <div class="max-w-[1400px] mx-auto px-6">
+    
+    <!-- Header -->
+    <div class="text-center mb-20">
+      <h2 class="text-5xl md:text-6xl font-normal mb-6">
+        Your all-in-one<br />
+        <span class="font-serif italic font-light">AI platform</span> for real work
+      </h2>
+      <p class="text-gray-400 text-lg max-w-2xl mx-auto font-light">
+        A seamless, beautiful way to bring AI into your company's apps,<br />
+        knowledge, and culture.
+      </p>
+    </div>
+
+    <!-- Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+      <!-- Automate -->
+      <div class="bg-[#1A1A1A] rounded-2xl p-8 h-[500px] relative overflow-hidden group border border-white/5">
+        <div class="relative z-10">
+          <h3 class="text-lg font-semibold mb-1">Automate</h3>
+          <p class="text-gray-400 text-sm">Run complex, multi-step processes</p>
+        </div>
+        
+        <!-- Visual -->
+        <div class="absolute inset-0 flex items-center justify-center">
+          <div class="text-center opacity-40 group-hover:opacity-60 transition-opacity">
+            <div class="w-64 h-64 border border-dashed border-gray-600 rounded-full flex items-center justify-center animate-spin-slow">
+              <div class="w-48 h-48 border border-dashed border-gray-600 rounded-full flex items-center justify-center">
+                 <span class="text-xs text-gray-500">Building your workflow...</span>
+              </div>
+            </div>
+            <p class="mt-4 text-xs text-gray-500">Viewing in canvas ></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Create -->
+      <div class="bg-[#1A1A1A] rounded-2xl p-8 h-[500px] relative overflow-hidden border border-white/5">
+        <div class="relative z-10">
+          <h3 class="text-lg font-semibold mb-1">Create</h3>
+          <p class="text-gray-400 text-sm">Generate collaborative content in any format</p>
+        </div>
+
+        <!-- Visual -->
+        <div class="absolute bottom-8 left-8 right-8 top-24 bg-[#222] rounded-xl p-4 flex flex-col gap-4 border border-gray-800">
+           <div class="flex gap-4">
+             <div class="bg-white text-black p-4 rounded-lg flex-1">
+               <div class="text-2xl font-bold">14%</div>
+               <div class="h-1 bg-gray-200 mt-2 rounded-full overflow-hidden">
+                 <div class="h-full w-[14%] bg-blue-500"></div>
+               </div>
+             </div>
+             <div class="bg-white text-black p-4 rounded-lg flex-1">
+               <div class="text-2xl font-bold">64%</div>
+               <div class="h-1 bg-gray-200 mt-2 rounded-full overflow-hidden">
+                 <div class="h-full w-[64%] bg-blue-500"></div>
+               </div>
+             </div>
+             <div class="bg-white text-black p-4 rounded-lg flex-1">
+               <div class="text-2xl font-bold">7%</div>
+               <div class="h-1 bg-gray-200 mt-2 rounded-full overflow-hidden">
+                 <div class="h-full w-[7%] bg-blue-500"></div>
+               </div>
+             </div>
+           </div>
+           
+           <div class="flex-1 bg-[#111] rounded-lg border border-gray-800 relative overflow-hidden p-4">
+             <!-- Chart Line -->
+             <svg class="w-full h-full" viewBox="0 0 100 50" preserveAspectRatio="none">
+               <path d="M0 40 Q 20 35, 40 20 T 80 10 T 100 30" fill="none" stroke="#0055FF" stroke-width="2" />
+               <path d="M0 45 Q 20 40, 40 30 T 80 25 T 100 40" fill="none" stroke="#333" stroke-width="2" stroke-dasharray="4 4" />
+             </svg>
+           </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Analyze -->
+      <div class="bg-[#1A1A1A] rounded-2xl p-8 h-[500px] relative overflow-hidden border border-white/5">
+        <div class="relative z-10 mb-6">
+          <h3 class="text-lg font-semibold mb-1">Analyze</h3>
+          <p class="text-gray-400 text-sm">Turn data into live dashboards and reports</p>
+        </div>
+        
+        <!-- Code Editor Visual -->
+        <div class="bg-[#111] rounded-lg border border-gray-800 p-4 font-mono text-xs text-gray-400 h-full overflow-hidden">
+          <div class="flex gap-4 mb-4 border-b border-gray-800 pb-2">
+            <span class="text-white">Code</span>
+            <span>Results</span>
+          </div>
+          <div class="space-y-1">
+             <p><span class="text-purple-400">const</span> data = <span class="text-blue-400">await</span> fetch(url);</p>
+             <p><span class="text-purple-400">const</span> json = <span class="text-blue-400">await</span> data.json();</p>
+             <p>&nbsp;</p>
+             <p><span class="text-gray-500">// Process the results</span></p>
+             <p>results.map(item =&gt; &#123;</p>
+             <p>&nbsp;&nbsp;<span class="text-blue-400">return</span> &#123;</p>
+             <p>&nbsp;&nbsp;&nbsp;&nbsp;id: item.id,</p>
+             <p>&nbsp;&nbsp;&nbsp;&nbsp;value: item.value * 2</p>
+             <p>&nbsp;&nbsp;&#125;</p>
+             <p>&#125;);</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Act -->
+      <div class="bg-[#1A1A1A] rounded-2xl p-8 h-[500px] relative overflow-hidden border border-white/5 flex flex-col">
+        <div class="relative z-10 mb-6">
+          <h3 class="text-lg font-semibold mb-1">Act</h3>
+          <p class="text-gray-400 text-sm">Take instant actions across your tools</p>
+        </div>
+
+        <!-- Action Card Visual -->
+        <div class="flex-1 flex items-center justify-center">
+          <div class="bg-[#222] rounded-xl p-4 border border-gray-700 w-full max-w-xs shadow-2xl">
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg"></div>
+              <div>
+                <div class="text-sm font-medium">Meeting with Yunday Inc. finished</div>
+                <div class="text-xs text-gray-500">Update Salesforce after meeting</div>
+              </div>
+            </div>
+            <div class="h-1 bg-gray-700 rounded-full overflow-hidden">
+              <div class="h-full w-1/2 bg-blue-500"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Find -->
+      <div class="bg-[#1A1A1A] rounded-2xl p-8 h-[500px] relative overflow-hidden border border-white/5">
+        <div class="relative z-10 mb-6">
+          <h3 class="text-lg font-semibold mb-1">Find</h3>
+          <p class="text-gray-400 text-sm">All the latest company docs and data</p>
+        </div>
+
+        <!-- Search Visual -->
+        <div class="relative h-full">
+           <div class="bg-gradient-to-br from-pink-500/20 to-purple-500/20 rounded-xl p-6 h-64 mb-4 border border-white/10 flex flex-col justify-end">
+             <p class="text-lg font-serif italic">"Sure thing! Here's an executive summary for you. I included the latest sales deck for new computers, specs on products gaps, and a few versions for cold reach."</p>
+           </div>
+           
+           <div class="bg-[#222] rounded-full p-2 flex items-center gap-2 border border-gray-700">
+             <div class="w-8 h-8 rounded-full bg-gray-800 flex items-center justify-center text-xs">AI</div>
+             <div class="flex-1 text-xs text-gray-400">Ask a follow-up...</div>
+             <button class="w-8 h-8 rounded-full bg-white text-black flex items-center justify-center">
+               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                 <path d="M5 12h14M12 5l7 7-7 7" />
+               </svg>
+             </button>
+           </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  .animate-spin-slow {
+    animation: spin 10s linear infinite;
+  }
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+</style>

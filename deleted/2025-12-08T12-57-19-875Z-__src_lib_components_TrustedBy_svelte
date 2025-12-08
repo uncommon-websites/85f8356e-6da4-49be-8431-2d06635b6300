@@ -1,0 +1,34 @@
+<script lang="ts">
+  // Trusted By section
+</script>
+
+<section class="bg-black text-white py-32 border-b border-gray-900">
+  <div class="max-w-[1400px] mx-auto px-6 text-center">
+    
+    <h2 class="text-4xl md:text-5xl font-normal mb-20">
+      Sana is trusted by leading<br />
+      <span class="font-serif italic font-light">enterprises across industries</span>
+    </h2>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-12 md:gap-20 items-center opacity-80">
+      <!-- Logos placeholders -->
+      <div class="text-2xl font-bold tracking-tighter">STRAVA</div>
+      <div class="text-2xl font-bold uppercase tracking-widest">Polestar</div>
+      <div class="text-2xl font-bold flex items-center justify-center gap-2">
+        <div class="w-6 h-6 rounded-full border-4 border-white"></div> MERCK
+      </div>
+      <div class="text-2xl font-bold flex items-center justify-center gap-2">
+        <span class="text-3xl">*</span> Apollo
+      </div>
+      <div class="text-2xl font-bold flex items-center justify-center gap-2">
+        <span class="text-xl">↗</span> Robinhood
+      </div>
+      <div class="text-2xl font-bold tracking-wide">AMGEN</div>
+      <div class="text-xl font-bold flex items-center justify-center gap-2">
+        <span class="border border-white p-1 text-xs">E</span> Electrolux Group
+      </div>
+      <div class="text-2xl font-bold font-serif">piab</div>
+    </div>
+
+  </div>
+</section>
