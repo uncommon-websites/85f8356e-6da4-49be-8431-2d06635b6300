@@ -2,76 +2,67 @@
     import { Check } from 'lucide-svelte';
 </script>
 
-<section class="py-24 bg-black text-white">
+<section class="py-24 bg-black text-white" id="industries">
 	<div class="max-w-[1400px] mx-auto px-6">
 		<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
-            <!-- UI Mockup -->
+            <!-- Text Content -->
+			<div>
+				<h2 class="text-4xl md:text-5xl lg:text-6xl font-normal mb-6 leading-tight">
+					Built for the<br />
+					<span class="italic font-light">$5T commerce market</span>
+				</h2>
+				<p class="text-gray-400 text-lg max-w-md mb-8">
+					Starting with retail brands, we're capturing the massive commerce opportunity with workflow intelligence powered by Google AI leadership.
+				</p>
+				<div class="space-y-4">
+					<div class="flex items-center gap-3">
+						<div class="w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-black text-[10px] font-bold">✓</div>
+						<span class="text-gray-300">Apparel & Fashion Retail</span>
+					</div>
+					<div class="flex items-center gap-3">
+						<div class="w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-black text-[10px] font-bold">✓</div>
+						<span class="text-gray-300">Specialty & Boutique Brands</span>
+					</div>
+					<div class="flex items-center gap-3">
+						<div class="w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-black text-[10px] font-bold">✓</div>
+						<span class="text-gray-300">Multi-Brand Retail Groups</span>
+					</div>
+					<div class="flex items-center gap-3">
+						<div class="w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-black text-[10px] font-bold">✓</div>
+						<span class="text-gray-300">E-commerce & Omnichannel</span>
+					</div>
+				</div>
+			</div>
+
+            <!-- Visual -->
 			<div class="bg-[#0f0f0f] rounded-xl p-12 border border-white/5 relative overflow-hidden h-[600px] flex items-center justify-center">
-                <div class="w-full max-w-sm bg-white rounded-xl shadow-2xl overflow-hidden text-black">
-                    <div class="p-2 border-b border-gray-100 flex justify-between items-center">
-                        <div class="flex items-center gap-2 px-2">
-                            <div class="w-4 h-4 rounded-full bg-gray-200"></div>
-                            <span class="text-sm font-medium">Auto</span>
-                        </div>
-                        <div class="text-xs text-gray-400 px-2">Auto</div>
+                <div class="w-full h-full flex flex-col justify-center space-y-8">
+                    <!-- Market Size -->
+                    <div class="text-center mb-8">
+                        <div class="text-6xl font-bold text-white mb-2">$5T</div>
+                        <div class="text-sm text-gray-400">Global Commerce Market</div>
                     </div>
                     
-                    <div class="p-2">
-                        <div class="flex items-start gap-3 p-3 bg-gray-50 rounded-lg mb-1">
-                            <div class="w-4 h-4 rounded-full border border-gray-300 mt-1 flex items-center justify-center">
-                                <div class="w-2 h-2 bg-black rounded-full"></div>
-                            </div>
-                            <div>
-                                <div class="text-sm font-medium">Auto</div>
-                                <div class="text-xs text-gray-500">The most suitable model for the job</div>
-                            </div>
-                            <Check size={16} class="ml-auto text-black" />
+                    <!-- Growth Indicators -->
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="bg-white/5 rounded-lg p-6 border border-white/10 text-center">
+                            <div class="text-3xl font-bold text-primary-400 mb-2">AI-First</div>
+                            <div class="text-xs text-gray-400">Next Generation Retail</div>
                         </div>
-
-                        <div class="flex items-start gap-3 p-3 hover:bg-gray-50 rounded-lg mb-1 opacity-50">
-                            <div class="w-4 h-4 rounded-full border border-gray-300 mt-1"></div>
-                            <div>
-                                <div class="text-sm font-medium">GPT-4</div>
-                                <div class="text-xs text-gray-500">Flagship GPT model for complex tasks</div>
-                            </div>
+                        <div class="bg-white/5 rounded-lg p-6 border border-white/10 text-center">
+                            <div class="text-3xl font-bold text-primary-400 mb-2">Custom</div>
+                            <div class="text-xs text-gray-400">Built for Your Workflows</div>
                         </div>
-
-                        <div class="flex items-start gap-3 p-3 hover:bg-gray-50 rounded-lg mb-1 opacity-50">
-                            <div class="w-4 h-4 rounded-full border border-gray-300 mt-1"></div>
-                            <div>
-                                <div class="text-sm font-medium">Claude Sonnet 3.5</div>
-                                <div class="text-xs text-gray-500">Anthropic's flagship model, industry-leading for coding tasks</div>
-                            </div>
+                        <div class="bg-white/5 rounded-lg p-6 border border-white/10 text-center">
+                            <div class="text-3xl font-bold text-primary-400 mb-2">Google</div>
+                            <div class="text-xs text-gray-400">AI Expertise</div>
                         </div>
-                        
-                         <div class="flex items-start gap-3 p-3 hover:bg-gray-50 rounded-lg mb-1 opacity-50">
-                            <div class="w-4 h-4 rounded-full border border-gray-300 mt-1"></div>
-                            <div>
-                                <div class="text-sm font-medium">Claude Haiku 3.5</div>
-                                <div class="text-xs text-gray-500">Fast responses with near-frontier intelligence</div>
-                            </div>
-                        </div>
-
-                         <div class="flex items-start gap-3 p-3 hover:bg-gray-50 rounded-lg opacity-50">
-                            <div class="w-4 h-4 rounded-full border border-gray-300 mt-1"></div>
-                            <div>
-                                <div class="text-sm font-medium">GPT-4o mini</div>
-                                <div class="text-xs text-gray-500">Balanced for speed and cost efficiency</div>
-                            </div>
+                        <div class="bg-white/5 rounded-lg p-6 border border-white/10 text-center">
+                            <div class="text-3xl font-bold text-primary-400 mb-2">Proven</div>
+                            <div class="text-xs text-gray-400">Measurable Results</div>
                         </div>
                     </div>
                 </div>
-			</div>
-
-            <!-- Text Content -->
-			<div>
-				<h2 class="text-4xl md:text-5xl lg:text-6xl font-serif font-normal mb-6 leading-tight">
-					Only use the AI models<br />
-					that work best for you
-				</h2>
-				<p class="text-gray-400 text-lg max-w-md">
-					With Sana, you can choose and switch between leading models as you need.
-				</p>
 			</div>
 		</div>
 	</div>
