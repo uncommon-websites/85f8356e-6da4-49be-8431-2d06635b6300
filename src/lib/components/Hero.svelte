@@ -9,7 +9,7 @@
 				Transform retail operations with <span class="italic font-light">custom AI</span>
 			</h1>
 
-			<p class="text-xl text-gray-400 max-w-2xl mb-10 leading-relaxed font-light font-sans">
+			<p class="text-xl text-yellow-400 max-w-2xl mb-10 leading-relaxed font-light font-sans">
 				Built by former Google technologists. Co-developed with your team. 
 				AI solutions that understand retail workflows and drive real results.
 			</p>
