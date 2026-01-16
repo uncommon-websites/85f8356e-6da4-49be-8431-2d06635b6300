@@ -2,7 +2,7 @@
     import { Check } from 'lucide-svelte';
 </script>
 
-<section class="py-24 bg-black text-white" id="industries">
+<section class="py-24 bg-white text-gray-900" id="industries">
 	<div class="max-w-[1400px] mx-auto px-6">
 		<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
             <!-- Text Content -->

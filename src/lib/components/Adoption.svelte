@@ -1,4 +1,4 @@
-<section class="py-24 bg-black text-white text-center" id="approach">
+<section class="py-24 bg-white text-gray-900 text-center" id="approach">
 	<div class="max-w-[1400px] mx-auto px-6">
 		<h2 class="text-4xl md:text-5xl lg:text-6xl font-normal mb-6">
 			Co-development,<br />
@@ -13,32 +13,32 @@
 				<h3 class="text-2xl font-medium mb-8">Our Partnership Approach</h3>
 				<ul class="space-y-4">
 					<li class="flex items-center gap-3">
-						<div class="w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-black text-[10px] font-bold">✓</div>
-						<span class="text-gray-300">Deep workflow immersion with your team</span>
+						<div class="w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white text-[10px] font-bold">✓</div>
+						<span class="text-gray-700">Deep workflow immersion with your team</span>
 					</li>
 					<li class="flex items-center gap-3">
-						<div class="w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-black text-[10px] font-bold">✓</div>
-						<span class="text-gray-300">Custom AI models built for your data</span>
+						<div class="w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white text-[10px] font-bold">✓</div>
+						<span class="text-gray-700">Custom AI models built for your data</span>
 					</li>
 					<li class="flex items-center gap-3">
-						<div class="w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-black text-[10px] font-bold">✓</div>
-						<span class="text-gray-300">Seamless integration with existing systems</span>
+						<div class="w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white text-[10px] font-bold">✓</div>
+						<span class="text-gray-700">Seamless integration with existing systems</span>
 					</li>
 					<li class="flex items-center gap-3">
-						<div class="w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-black text-[10px] font-bold">✓</div>
-						<span class="text-gray-300">Continuous optimization and learning</span>
+						<div class="w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white text-[10px] font-bold">✓</div>
+						<span class="text-gray-700">Continuous optimization and learning</span>
 					</li>
 					<li class="flex items-center gap-3">
-						<div class="w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-black text-[10px] font-bold">✓</div>
-						<span class="text-gray-300">Dedicated Google AI expertise</span>
+						<div class="w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white text-[10px] font-bold">✓</div>
+						<span class="text-gray-700">Dedicated Google AI expertise</span>
 					</li>
 					<li class="flex items-center gap-3">
-						<div class="w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-black text-[10px] font-bold">✓</div>
-						<span class="text-gray-300">Measurable ROI from day one</span>
+						<div class="w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white text-[10px] font-bold">✓</div>
+						<span class="text-gray-700">Measurable ROI from day one</span>
 					</li>
 					<li class="flex items-center gap-3">
-						<div class="w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-black text-[10px] font-bold">✓</div>
-						<span class="text-gray-300">Long-term strategic partnership</span>
+						<div class="w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white text-[10px] font-bold">✓</div>
+						<span class="text-gray-700">Long-term strategic partnership</span>
 					</li>
 				</ul>
 			</div>

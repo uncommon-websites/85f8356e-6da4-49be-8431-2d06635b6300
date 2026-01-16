@@ -32,7 +32,7 @@
 			Seamless integration<br />
 			with your retail tech stack
 		</h2>
-		<p class="text-gray-400 text-lg max-w-2xl mx-auto mb-20">
+		<p class="text-gray-600 text-lg max-w-2xl mx-auto mb-20">
 			Connect with your existing systems—ERP, POS, e-commerce, and more—with enterprise-grade security.
 		</p>
 

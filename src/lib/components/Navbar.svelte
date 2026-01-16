@@ -32,22 +32,22 @@
 		</a>
 
 		<!-- Desktop Links -->
-		<div class="hidden lg:flex items-center gap-8 text-sm font-medium text-gray-300">
-			<a href="#solutions" class="hover:text-white transition-colors">Solutions</a>
-			<a href="#industries" class="hover:text-white transition-colors">Industries</a>
-			<a href="#team" class="hover:text-white transition-colors">Team</a>
-			<a href="#approach" class="hover:text-white transition-colors">Approach</a>
+		<div class="hidden lg:flex items-center gap-8 text-sm font-medium text-gray-600">
+			<a href="#solutions" class="hover:text-gray-900 transition-colors">Solutions</a>
+			<a href="#industries" class="hover:text-gray-900 transition-colors">Industries</a>
+			<a href="#team" class="hover:text-gray-900 transition-colors">Team</a>
+			<a href="#approach" class="hover:text-gray-900 transition-colors">Approach</a>
 		</div>
 
 		<!-- Right Actions -->
 		<div class="hidden lg:flex items-center gap-6">
-			<a href="mailto:info@mercatorintelligence.com" class="bg-white hover:bg-gray-200 text-black px-5 py-2.5 rounded-full text-sm font-medium transition-colors">
+			<a href="mailto:info@mercatorintelligence.com" class="bg-gray-900 hover:bg-gray-800 text-white px-5 py-2.5 rounded-full text-sm font-medium transition-colors">
 				Get Started
 			</a>
 		</div>
 
 		<!-- Mobile Menu Button -->
-		<button class="lg:hidden text-white" onclick={toggleMenu}>
+		<button class="lg:hidden text-gray-900" onclick={toggleMenu}>
 			{#if isMenuOpen}
 				<X size={24} />
 			{:else}

@@ -25,25 +25,25 @@
 			<!-- Column 1 -->
 			<div>
 				<h4 class="text-xs font-bold text-gray-500 uppercase tracking-wider mb-6">Solutions</h4>
-				<ul class="space-y-3 text-sm text-gray-300">
-					<li><a href="#" class="hover:text-white transition-colors">Demand Forecasting</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Inventory Optimization</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Customer Intelligence</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Pricing Strategy</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Supply Chain</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Workflow Intelligence</a></li>
+				<ul class="space-y-3 text-sm text-gray-600">
+					<li><a href="#" class="hover:text-gray-900 transition-colors">Demand Forecasting</a></li>
+					<li><a href="#" class="hover:text-gray-900 transition-colors">Inventory Optimization</a></li>
+					<li><a href="#" class="hover:text-gray-900 transition-colors">Customer Intelligence</a></li>
+					<li><a href="#" class="hover:text-gray-900 transition-colors">Pricing Strategy</a></li>
+					<li><a href="#" class="hover:text-gray-900 transition-colors">Supply Chain</a></li>
+					<li><a href="#" class="hover:text-gray-900 transition-colors">Workflow Intelligence</a></li>
 				</ul>
 			</div>
 
 			<!-- Column 2 -->
 			<div>
 				<h4 class="text-xs font-bold text-gray-500 uppercase tracking-wider mb-6">Company</h4>
-				<ul class="space-y-3 text-sm text-gray-300">
-					<li><a href="#" class="hover:text-white transition-colors">About</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Team</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Approach</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Case Studies</a></li>
-					<li><a href="mailto:info@mercatorintelligence.com" class="hover:text-white transition-colors">Contact</a></li>
+				<ul class="space-y-3 text-sm text-gray-600">
+					<li><a href="#" class="hover:text-gray-900 transition-colors">About</a></li>
+					<li><a href="#" class="hover:text-gray-900 transition-colors">Team</a></li>
+					<li><a href="#" class="hover:text-gray-900 transition-colors">Approach</a></li>
+					<li><a href="#" class="hover:text-gray-900 transition-colors">Case Studies</a></li>
+					<li><a href="mailto:info@mercatorintelligence.com" class="hover:text-gray-900 transition-colors">Contact</a></li>
 				</ul>
 			</div>
 		</div>

@@ -2,7 +2,7 @@
     import { Play } from 'lucide-svelte';
 </script>
 
-<section class="py-24 bg-black text-white">
+<section class="py-24 bg-white text-gray-900">
 	<div class="max-w-[1400px] mx-auto px-6">
 		<div class="text-center mb-20">
 			<h2 class="text-4xl md:text-5xl lg:text-6xl font-normal mb-6">
@@ -17,17 +17,17 @@
 		<!-- Row 1 -->
 		<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
 			<!-- Card 1: Demand Forecasting -->
-			<div class="bg-[#0f0f0f] rounded-xl p-8 border border-white/5 h-[600px] flex flex-col relative overflow-hidden group">
+			<div class="bg-gray-50 rounded-xl p-8 border border-gray-200 h-[600px] flex flex-col relative overflow-hidden group">
 				<div class="mb-8 relative z-10">
 					<h3 class="text-lg font-semibold mb-1">Demand Forecasting</h3>
-					<p class="text-gray-400 text-sm">Predict customer demand with precision across channels and categories</p>
+					<p class="text-gray-600 text-sm">Predict customer demand with precision across channels and categories</p>
 				</div>
                 
                 <!-- Mockup Content -->
-                <div class="flex-1 relative bg-[#0a0a0a] rounded-lg border border-white/5 overflow-hidden p-6 flex flex-col">
+                <div class="flex-1 relative bg-white rounded-lg border border-gray-200 overflow-hidden p-6 flex flex-col">
                     <!-- Top stats row -->
                     <div class="flex gap-4 mb-6">
-                        <div class="bg-primary-500/10 p-4 rounded w-1/3 border border-primary-500/20">
+                        <div class="bg-primary-500/10 p-4 r-4 rounded w-1/3 border border-primary-500/20">
                             <div class="text-xs text-primary-300 mb-1">Next Week</div>
                             <div class="text-xl font-bold text-primary-400">+18% ↗</div>
                         </div>
@@ -61,10 +61,10 @@
 			</div>
 
 			<!-- Card 2: Inventory Optimization -->
-			<div class="bg-[#0f0f0f] rounded-xl p-8 border border-white/5 h-[600px] flex flex-col relative overflow-hidden group">
+			<div class="bg-gray-50 rounded-xl p-8 border border-gray-200 h-[600px] flex flex-col relative overflow-hidden group">
 				<div class="mb-8 relative z-10">
 					<h3 class="text-lg font-semibold mb-1">Inventory Optimization</h3>
-					<p class="text-gray-400 text-sm">Optimize stock levels and allocation across your entire network</p>
+					<p class="text-gray-600 text-sm">Optimize stock levels and allocation across your entire network</p>
 				</div>
                 
                 <!-- Mockup Content -->
@@ -75,7 +75,7 @@
                              <div class="flex items-center justify-between p-3 bg-white/5 rounded">
                                  <div class="text-xs text-gray-400">Store A</div>
                                  <div class="flex-1 mx-4 h-2 bg-white/10 rounded-full overflow-hidden">
-                                     <div class="h-full bg-primary-500 w-[85%]"></div>
+                                     <div class="h-full ary-500 w-[85%]"></div>
                                  </div>
                                  <div class="text-xs text-white">85%</div>
                              </div>
@@ -118,23 +118,23 @@
 					<p class="text-gray-400 text-sm">Uncover insights from transaction and behavior data</p>
 				</div>
                 
-                 <!-- Mockup Content - Insights -->
-                <div class="flex-1 relative bg-[#0a0a0a] rounded-lg border border-white/5 overflow-hidden p-4 space-y-3">
-                    <div class="p-3 bg-white/5 rounded border-l-2 border-primary-500">
+                 <!-- Mockup Content- Insights -->
+                <div class="flex-1 relative bg-white rounded-lg border border-gray-200 overflow-hidden p-4 space-y-3">
+                    <div class="p-3 bg-gray-50 rounded border-l-2 border-primary-500">
                         <div class="text-[10px] text-gray-500 mb-1">SEGMENT INSIGHT</div>
-                        <div class="text-xs text-white">High-value customers prefer weekend shopping</div>
+                        <div class="text-xs text-gray-900">High-value customers prefer weekend shopping</div>
                     </div>
-                    <div class="p-3 bg-white/5 rounded border-l-2 border-primary-500">
+                    <div class="p-3 bg-gray-50 rounded border-l-2 border-primary-500">
                         <div class="text-[10px] text-gray-500 mb-1">TREND ALERT</div>
-                        <div class="text-xs text-white">Athleisure category up 24% this month</div>
+                        <div class="text-xs text-gray-900">Athleisure category up 24% this month</div>
                     </div>
-                    <div class="p-3 bg-white/5 rounded border-l-2 border-yellow-500">
+                    <div class="p-3 bg-gray-50 rounded border-l-2 border-yellow-500">
                         <div class="text-[10px] text-gray-500 mb-1">CHURN RISK</div>
-                        <div class="text-xs text-white">156 customers at risk - recommend outreach</div>
+                        <div class="text-xs text-gray-900">156 customers at risk - recommend outreach</div>
                     </div>
-                    <div class="p-3 bg-white/5 rounded border-l-2 border-primary-500">
+                    <div class="p-3 bg-gray-50 rounded border-l-2 border-primary-500">
                         <div class="text-[10px] text-gray-500 mb-1">OPPORTUNITY</div>
-                        <div class="text-xs text-white">Cross-sell potential: $2.4M in accessories</div>
+                        <div class="text-xs text-gray-900">Cross-sell potential: $2.4M in accessories</div>
                     </div>
                 </div>
 			</div>
@@ -206,12 +206,12 @@
                     </div>
                     
                     <div class="flex items-center gap-3 w-full">
-                        <div class="flex-1 bg-white/5 rounded p-3 text-center border border-white/10">
-                            <div class="text-[10px] text-gray-400">E-commerce</div>
+                        <div class="flex-1 bg-gray-100 rounded p-3 text-center border border-gray-200">
+                            <div class="text-[10px] text-gray-600">E-commerce</div>
                         </div>
-                        <div class="text-gray-600">→</div>
-                        <div class="flex-1 bg-primary-500/10 rounded p-3 text-center border border-primary-500/20">
-                            <div class="text-[10px] text-primary-300">Mercator AI</div>
+                        <div class="text-gray-400">→</div>
+                        <div class="flex-1 bg-primary-50 rounded p-3 text-center border border-primary-200">
+                            <div class="text-[10px] text-primary-700">Mercator AI</div>
                         </div>
                     </div>
                     
@@ -223,3 +223,4 @@
 		</div>
 	</div>
 </section>
+ction>
