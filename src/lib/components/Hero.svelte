@@ -31,7 +31,7 @@
 			<!-- Retail Analytics Dashboard Mockup -->
 			<div class="rounded-xl overflow-hidden border border-gray-200 shadow-2xl bg-gray-50 aspect-[16/10] relative">
 				<!-- Top bar -->
-				<div class="h-10 bg-white border-b border-gray-200 flex items-center px-4 gap-2">
+				<div class="h-10 bg-red-500 border-b border-gray-200 flex items-center px-4 gap-2">
                     <div class="flex gap-2">
                         <div class="w-3 h-3 rounded-full bg-red-500/30"></div>
                         <div class="w-3 h-3 rounded-full bg-yellow-500/30"></div>
